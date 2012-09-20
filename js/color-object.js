@@ -20,6 +20,7 @@ var color = (function(){
 
 	/**
 	 * color object constructor
+	 * creates color object with values for hex, rgb, hsl, and alpha, based on color value input
 	 * @param {string} instanceVal [string value for color (hex, rgb, rgba, html color name)]
 	 */
 	Color = function(instanceVal){

@@ -60,8 +60,6 @@ var color = (function(){
 			}
 
 			this.hsl = rgbToHsl(this.rgb);
-			
-			console.log(this);
 		}
 
 	};

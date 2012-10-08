@@ -39,7 +39,7 @@ Mobile Detection
  
 **@example**  
 	- var isMobile = mobileDetection.detectMobile();  
-	- var isTablet = mobileDerection.detectTable();  
+	- var isTablet = mobileDerection.detectTablet();  
 
 **@requires**  
 	- storage.js utility  

@@ -7,9 +7,10 @@ Misc utility libs to handle common tasks
 Color Object
 ------------
 
- **@description**  
-	- module that creates color objects from string color values using 'create' method  
-	- also exposes some utility conversion functions for color conversion  
+**@description**  
+- module that creates color objects from string color values using 'create' method  
+- also exposes some utility conversion functions for color conversion
+
  **@example** var myBlue = color.create('#123456'); // output: { hex:"#123456", alpha:1, rgb:[18,52,86], hsl:[210,79,34] }  
 
 

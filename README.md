@@ -7,7 +7,7 @@ Misc utility libs to handle common tasks
 Color Object
 ------------
 
-**@description**  
+**@description**
 - module that creates color objects from string color values using 'create' method  
 - also exposes some utility conversion functions for color conversion
 

@@ -7,7 +7,7 @@ Misc utility libs to handle common tasks
 Color Object
 ------------
 
- **@description**
+ **@description**  
 	- module that creates color objects from string color values using 'create' method  
 	- also exposes some utility conversion functions for color conversion  
  **@example** var myBlue = color.create('#123456'); // output: { hex:"#123456", alpha:1, rgb:[18,52,86], hsl:[210,79,34] }  
@@ -37,9 +37,9 @@ Mobile Detection
 	- stores result in local storage/cookie for fast referencing on future page loads  
 	- user agent regex from http://detectmobilebrowser.com  
  
-**@example**
+**@example**  
 	- var isMobile = mobileDetection.detectMobile();  
 	- var isTablet = mobileDerection.detectTable();  
 
-**@requires**
+**@requires**  
 	- storage.js utility  

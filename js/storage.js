@@ -7,7 +7,7 @@
  *	@example
  *		storage.save('myRecord', {name: First Last, id: 22}, 10); // last param is duration: if truthy, will add data to local storage. If falsy, will add to session. If a number and using cookies, it will store for x days.
  *	 	var jsonData = storage.read('myRecord'); // returns json
- *	  	destory('myRecord');
+ *	  	storage.destroy('myRecord');
  *
  *	@version 1.0.0
  *	@requires
